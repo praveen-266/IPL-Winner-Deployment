@@ -17,5 +17,6 @@ if you encounter this webapp as show in the picture below,it is occureing just b
 ![image](https://user-images.githubusercontent.com/71770999/192341287-eae74597-cf43-459d-b003-6404592930b8.png)                    
 <!--  -->         
 
-you can access this webapp on **November 28th 2022**
-Heroku
+you can access this webapp on **November 28th 2022** in Heroku app   
+          
+Do ⭐ the repository, if it helped you in anyway
