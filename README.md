@@ -14,6 +14,8 @@ https://github.com/praveen-266/Machine-Learning-Projects/tree/main/IPL%20Winner%
 ----- Important Note -----
 
 if you encounter this webapp as show in the picture below,it is occureing just because free dynos for this particular month provided by Heroku have been completely used. You can access the webpage on 1st of the next month. 
-![image](https://user-images.githubusercontent.com/71770999/192341287-eae74597-cf43-459d-b003-6404592930b8.png)
+![image](https://user-images.githubusercontent.com/71770999/192341287-eae74597-cf43-459d-b003-6404592930b8.png)                    
+<!--  -->         
+
 you can access this webapp on **November 28th 2022**
 Heroku
