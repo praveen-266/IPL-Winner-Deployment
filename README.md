@@ -1,5 +1,5 @@
 
-# IPL-Winner-Prediction-Deployment         
+# IPL Winner Prediction      
 
 # Proble Statement 
 Indian Premier League (IPL) ia a famous twenty-20 League conducted by the Board of Control for Cricket in india (BCCI). It was started in 2008 and successfully completed fourteen seasons till 2021. IPL is a popular sport where it has large set of audience throughout the country. Every cricket fan would be eager to know and predict the IPL match result. A solution using Machine Learning is provided for the innings score considering the past data of match by match and ball by ball. Match winner prediction is taken as classification problem. Algorithms like Logistic Regression and RandomForest are used for classification of match winner.      
@@ -16,17 +16,21 @@ Statistical data analysis and Data Visualization performed on data to find if an
 
 ## 3. Feature Engineering       
 created some features based on firtst innings for second innings:
-      * current_score
-      * runs_left
-      * wicket_left 
+      * current_score                 
+      * runs_left                     
+      * wicket_left              
       * balls_left        
-      * current_run_rate           
+      * current_run_rate                  
       * required_run_rate         
+
+## 4. Feature Transformation       
+"BattingTeam" , "BowlingTeam" and "City" are transformed into dummy variables. because they are conatined multiple groups 
+      
 ## 4. final dataframe features to predict:       
 "BattingTeam", "BowlingTeam", "City" , "Target" , "runs_left", "balls_left", "wicket_lefts", "current_lefts", "required_run_rate" , "result"         
 
 ## 5. Model Training          
-i tried several base models such as LogisticRegression, RandomForest Classifier, DecisionTreeClassifier using hyperparameter with GrisSearchCV validation. among these models **RandomForestClassifier** gives the best macro f1 score           
+I tried several base models such as LogisticRegression, RandomForest Classifier, DecisionTreeClassifier using hyperparameter with GrisSearchCV validation. among these models **RandomForestClassifier** gives the best macro f1 score           
 
 → If you are searching for code, algorithms used . you won't find it here. Click the link mentioned below for the same:             
 https://github.com/praveen-266/Machine-Learning-Projects/tree/main/IPL%20Winner%20Prediction
